@@ -1,0 +1,276 @@
+* {
+    font-family: 'Montserrat';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-size: 16px;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mainLogo {
+    width: 240px;
+    height: 75px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 12px;
+}
+
+li {
+    display: inline;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.bannerText {
+    width: 100%;
+    background: linear-gradient(to left, rgba(160, 171, 229, 0.52), rgb(8, 59, 135)), url(https://websitedemos.net/coach-02/wp-content/uploads/sites/171/2018/02/hero-free-img.jpg);
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+}
+
+.bannerText>div {
+    width: 30%;
+    max-width: 100%;
+    color: white;
+    margin-left: 400px;
+    margin-top: 130px;
+}
+
+.bannerText>div>h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.bannerText>div>p {
+    line-height: 28px;
+    padding-bottom: 20px;
+}
+
+button {
+    outline: none;
+    border: 0px;
+    padding: 18px 38px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.featuredIn {
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    background-color: #f4f6f6;
+}
+
+.logos {
+    width: 60%;
+    margin: auto;
+}
+
+.whatIDo>h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 80px;
+}
+
+.whatIDo>p {
+    padding: 0px 300px;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.myActivities {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    width: 75%;
+    margin: auto;
+    color: white;
+}
+
+.myActivities>div {
+    background-color: #075AAE;
+    padding: 60px 40px;
+    width: 350px;
+}
+
+.myActivities>div>h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.myActivities>div>p {
+    line-height: 30px;
+}
+
+.myActivities>div>button {
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+}
+
+.myActivities>div>hr {
+    width: 50px;
+    border-top: 1px solid #0274be;
+    margin: 0 199px 0 0;
+}
+
+.myCourses {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75%;
+    gap: 5%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.myCourses>* {
+    background-color: #f4f6f6;
+}
+
+.advice {
+    width: 29%;
+    padding: 60px 40px;
+    height: 350px;
+}
+
+.advice>h1 {
+    font-size: 40px;
+}
+
+.ebooks {
+    background: url(./img/icon-03-free-img.png);
+    background-position: left bottom;
+    background-color: #f4f6f6;
+    background-repeat: no-repeat;
+    width: 79%;
+}
+
+.ebooks>div {
+    width: 60%;
+    margin-left: 30%;
+    padding: 40px 50px 0 40px;
+}
+
+.ebooks>div>h1 {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.ebooks>div>p {
+    line-height: 30px;
+}
+
+.myCourses>div>h1 {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.myCourses>div>p {
+    line-height: 30px;
+}
+
+.courseButtons {
+    background-color: #075AAE;
+    color: white;
+}
+
+.testimonials {
+
+    background: linear-gradient(to right, rgba(124, 142, 227, 0.52), rgb(8, 59, 135)), url(https://websitedemos.net/coach-02/wp-content/uploads/sites/171/2018/02/testimonials-free-img.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    height: 450px;
+}
+
+.testimonials>div {
+    width: 40%;
+    color: white;
+    margin-left: 50%;
+    padding: 80px;
+}
+
+.testimonials>div>* {
+    margin-top: 20px;
+}
+
+.testimonials>div>h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.testimonials>div>p {
+    line-height: 30px;
+}
+
+.testimonials>div>hr {
+    width: 50px;
+    border-top: 1px solid white;
+    margin: 0 199px 0 0;
+}
+
+.story {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+}
+
+.story>img {
+    width: 444px;
+    height: 614px;
+}
+
+.story>div>h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.story>div>p {
+    line-height: 28px;
+}
+
+.TheEnd {
+    background-color: #0274be;
+    margin-top: 80px;
+    padding: 100px 30px;
+}
+
+.TheEnd>h1 {
+    width: 50%;
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+footer {
+    padding: 30px;
+}
